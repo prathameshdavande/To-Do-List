@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin: 20px;
+  column-gap: 10px;
+
+  padding: 5rem 10rem 5rem 10rem;
+}
+
+.form-add-task {
+  width: auto;
+}
+
+.img-name {
+  display: flex;
+
+  align-items: center;
+}
+button {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 0.3fr auto;
+  gap: 10px;
+  row-gap: 5px;
+  border-bottom: 1px solid #555;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 1rem 0;
+}
+
+.container {
+  width: 70vw;
+}
+.task-stats {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 2rem;
+}
+
+/* .tasks {
+  padding: auto;
+} */
+
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.complete-task {
+  text-decoration: line-through;
+
+  /* transition the background-color over 1s with a linear animation */
+}
+
+table th {
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.btns {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  /* height: 10px; */
+}
+
+.total-tasks {
+  font-weight: bold;
+}
+.completed-task {
+  color: green;
+}
+.pending-task {
+  color: red;
+}
+/* 
+table td {
+  text-align: center;
+} */
+table tr {
+  text-align: center;
+}
+
+table {
+  width: 80vw;
+}
+.all-done {
+  height: 100%;
+
+  display: grid;
+  place-items: center;
+
+  font-weight: bold;
+  color: green;
+}
+.task-name {
+  width: 40%;
+}
+
+.task-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
